@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+aside{
+  border:1px solid darkgray;
+  margin:2px;
+  padding:0px;
+  width:15vw;
+  height:100vh;
+  float:left;  
+  background-color:darkgray;
+}
+.acont{
+  border:1px solid darkgray;
+  margin:2px;
+  padding:0px;
+  width:13vw;
+  height:10vh;
+  float:left;  
+  background-color:darkgray;
+}
+
+.inputtext{
+  border:1px solid darkgray;
+  margin:2px;
+  padding:0px;
+  width:70vw;
+  float:left;  
+}
+
+.inputarea{
+  border:1px solid darkgray;
+  margin:2px;
+  padding:0px;
+  width:70vw;
+  height:10vh;
+  float:left;  
+}
+section{
+  border:1px solid black;
+  margin:2px;
+  padding:0px;
+  width:78vw;
+  height:100vh;
+  float:left;
+  background-color:white;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container, .container-fluid {
+  margin-top: 20px;
+} 
